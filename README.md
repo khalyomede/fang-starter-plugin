@@ -44,7 +44,8 @@ Here is a todolist of what you need to do to well appropriate yourself this repo
    - author
 7. Add some keywords in the key `keywords` of the `package.json` (but **keep** the keyword `fang-plugin`)
 8. Change the description of your `README.md`
-9. Profit
+9. Add a `LICENSE` file
+10. Profit
 
 ## Examples
 
