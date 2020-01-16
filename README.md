@@ -17,6 +17,7 @@ Happy coding!
 ## Features
 
 - Support for Typescript, and generates declaration files
+- Lint your files at build time using TSLint
 - Contains a test command that will also run a coverage test
 - Contains a mutation command (in case you are interested)
 - Configured with `peerDependencies` on `"@fang/core": "0.*"`
