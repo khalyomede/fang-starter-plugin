@@ -31,19 +31,20 @@ Happy coding!
 Here is a todolist of what you need to do to well appropriate yourself this repository.
 
 1. Clone the project: `git clone https://github.com/khalyomede/fang-starter-plugin YOUR-PLUGIN-NAME`
-2. Install the dependencies
+2. Go to your repository, and remove the `.git repository`: `cd YOUR-PLUGIN-NAME && rm -rf .git`
+3. Initialize git: `git init`
+4. Install the dependencies
    - Using NPM: `npm install`
    - Using Yarn: `yarn install`
-3. Change the origin of the repository: `git remote set-url origin https://github.com/USERNAME/REPOSITORY.git`
-4. Check your origin has changed correctly: `git remote -v`
-5. Change the following key values in the `package.json`
+5. Add the origin of your repository: `git remote add origin https://github.com/USERNAME/YOUR-PLUGIN-NAME.git`
+6. Change the following key values in the `package.json`
    - name
    - description
    - repository
    - author
-6. Add some keywords in the key `keywords` of the `package.json` (but **keep** the keyword `fang-plugin`)
-7. Change the description of your `README.md`
-8. Profit
+7. Add some keywords in the key `keywords` of the `package.json` (but **keep** the keyword `fang-plugin`)
+8. Change the description of your `README.md`
+9. Profit
 
 ## Examples
 
