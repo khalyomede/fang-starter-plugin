@@ -6,6 +6,7 @@ Starter project to get started creating a plugin for Fang quickly.
 
 - [About](#about)
 - [Features](#features)
+- [Installation](#installation)
 - [Examples](#examples)
 
 ## About
@@ -24,6 +25,24 @@ Happy coding!
 - Configured to contain the required `keywords` in the `package.json` to get your plugin displayed in the website documentation (website coming soon)
 - Contains a build command to produce an ES5, transpiled, ready to use version of your plugin (which contains your Typescript declaration files)
 - Contains a command to publish patch, features and breaking changes using `np`
+
+## Installation
+
+Here is a todolist of what you need to do to well appropriate yourself this repository.
+
+1. Clone the project: `git clone https://github.com/khalyomede/fang-starter-plugin YOUR-PLUGIN-NAME`
+2. Install the dependencies
+   - Using NPM: `npm install`
+   - Using Yarn: `yarn install`
+3. Change the origin of the repository: `git remote set-url origin https://github.com/USERNAME/REPOSITORY.git`
+4. Check your origin has changed correctly: `git remote -v`
+5. Change the following key values in the `package.json`
+   - name
+   - description
+   - repository
+   - author
+6. Add some keywords in the key `keywords` of the `package.json` (but **keep** the keyword `fang-plugin`)
+7. Profit
 
 ## Examples
 
