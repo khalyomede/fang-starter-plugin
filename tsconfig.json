@@ -4,5 +4,6 @@
 		"alwaysStrict": true,
 		"target": "ES5",
 		"declaration": true
-	}
+	},
+	"include": ["src/**/*.ts"]
 }
