@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Removed
+
+- A file naming rule, that was too much strict in real usage.
+
 ## [0.2.1]
 
 ### Fixed
