@@ -73,7 +73,6 @@
 		"binary-expression-operand-order": true,
 		"class-name": true,
 		"encoding": true,
-		"file-name-casing": [true, "kebab-case"],
 		"increment-decrement": true,
 		"interface-name": [true, "always-prefix"],
 		"interface-over-type-literal": true,
