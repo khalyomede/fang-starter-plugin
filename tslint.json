@@ -76,7 +76,6 @@
 		"increment-decrement": true,
 		"interface-name": [true, "always-prefix"],
 		"interface-over-type-literal": true,
-		"newline-per-chained-call": true,
 		"no-parameter-properties": true,
 		"no-redundant-jsdoc": true,
 		"no-reference-import": true,
